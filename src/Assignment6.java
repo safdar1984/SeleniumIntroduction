@@ -15,6 +15,8 @@ public class Assignment6 {
 		int columns = table.findElements(By.xpath("//table[@name='courses']/tbody/tr/th")).size();
 		System.out.println("Total columns are "+columns);
 		System.out.println(table.findElement(By.xpath("(//table[@name='courses']/tbody/tr[3])")).getText());
+		
+		System.out.print("Done");
 
 	}
 
